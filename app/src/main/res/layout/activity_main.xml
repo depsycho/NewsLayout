@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:ignore="NamespaceTypo"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+   <LinearLayout
+       android:layout_weight="1"
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+       android:orientation="vertical">
+
+       <TextView
+           android:id="@+id/title_text_view"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="News I"
+           android:textSize="35dp"
+           android:textAppearance="?android:textAppearanceLarge"
+           android:textColor="@color/colorNews"
+           android:textStyle="bold"
+           android:gravity="center" />
+
+       <TextView
+           android:id="@+id/title_text_view1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="More napping, more napping all the napping is exhausting. "
+           android:textAppearance="?android:textAppearanceLarge"
+           android:textColor="@color/colorText"
+           android:textStyle="bold"
+           android:gravity="center" />
+
+       <ImageView
+           android:id="@+id/photo_image_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:scaleType="centerCrop"
+           android:src="@mipmap/ic_launcher_round"
+           android:layout_gravity="center" />
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News I"
+            android:textSize="35dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/colorNews"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/title_text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More napping, more napping all the napping is exhausting. "
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/photo_image_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1.3"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2.5dp"
+            android:text="Prev" />
+
+        <Button
+            android:id="@+id/next_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButton"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:text="Top" />
+
+        <Button
+            android:id="@+id/next_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorButton"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1.3"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorFooter">
+
+        <ImageView
+            android:id="@+id/maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/maps"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2.5dp"/>
+
+        <ImageView
+            android:id="@+id/gmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gmail"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2.5dp"/>
+
+        <ImageView
+            android:id="@+id/chrome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/chrome"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2.5dp"/>
+
+        <ImageView
+            android:id="@+id/drive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/drive"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2.5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1.4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorFooter"
+        >
+
+        <TextView
+            android:id="@+id/title_maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maps"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/colorText"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/title_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/colorText"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/title_chrome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chrome"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/colorText"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/title_drive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drive"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/colorText"
+            android:layout_weight="1"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
